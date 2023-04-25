@@ -1,0 +1,606 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.logo{
+    width: 80px;
+}
+
+ul li{
+    display: inline-block;
+    list-style:none;
+    margin:10px 40px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    position:relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width:0;
+    height:3px;
+    background:#ff004f;
+    position:absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color:#ff004f;
+}
+
+
+/*-- --------------aboutme--------------*/
+#about{
+    padding: 80px 0;
+    color:#ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 30%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px; 
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor:pointer;
+    position:relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left:0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active_link::after{
+    width:50%;
+}
+
+.tab-contents ul li{
+    display: block;
+    list-style:inside;
+    margin: 30px 0px;
+}
+
+.tab-contents ul li span{
+    color: #b54769;
+    font-size: 20px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+/*-- --------------services--------------*/
+
+#services{
+    padding:30px 0;
+}
+.serviceslist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.serviceslist div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
+
+
+.serviceslist div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.serviceslist div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+.serviceslist div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top:20px;
+    display: inline-block;
+}
+
+.serviceslist div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+
+/*------------portfolio------------*/
+
+#portfolio{
+    padding:50px 0;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition:transform 0.5s;
+}
+
+.layer{
+    width:100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition:height 0.5s;
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    position:relative;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+
+
+/*------------ugw------------*/
+
+#UGW{
+    padding: 200px 0;
+}
+
+.ugwRow{
+    display:block;
+    justify-content: center;
+}
+
+.Trailer{
+    margin-top: 20px;
+}
+
+.Trailer iframe{
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+.UGWTrailer .sub-title{
+  margin-left: 10%;
+}
+
+.Official-Website ul li a{
+    position: absolute;
+    margin-left: 8.5%;
+    color:#fff;
+    font-size: 20px;
+}
+
+.Details p{
+    margin-top: 30px;
+    margin-left: 14%;
+    width:80%;
+    word-wrap: break-word;
+}
+
+/*.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }*/
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+
+  /*.ContributionContent {
+    padding: 0 18px;
+    max-height: 0;
+    width: 60%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #9c1212;
+  }
+
+
+
+  /*------------FL------------*/
+
+
+  #FantasticLeague{
+    padding:200px 0;
+}
+
+.FLRow{
+    display:block;
+    justify-content: center;
+}
+
+.FLImg{
+    margin-top: 50px;
+}
+
+.FLImg img{
+   margin-top: -30px;
+   margin-left: 10%;
+   border-radius: 10px;
+   width: 720px;
+   height: 640px;
+}
+
+.FLTitle .sub-title{
+  margin-left: 10%;
+}
+
+.FLOfficial-Website ul li a{
+    margin-left: 0px;
+    color:#fff;
+    font-size: 20px;
+}
+
+.Details{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.collapsible {
+    background-color: #555;
+    margin-top: 10px;
+    margin-left: 10%;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 14px;
+    width: 55%;
+    border:black;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ff004f;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+
+  .ContributionContent {
+    padding: 2px 0;
+    margin-left: 7.5%;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 75%;
+    transition: max-height 0.2s ease-out;
+    background-color:none;
+    opacity: 100%;
+  }
+
+  .ContributionContent p{
+    margin-top: 10px;
+    margin-left: 3.5%;
+    word-wrap: break-word;
+    width:70%;
+  }
+
+
+
+
+  
+  /*------------HLM------------*/
+
+
+  #HotLikeMiami{
+    padding:200px 0;
+}
+
+.HLMRow{
+    display:block;
+    justify-content: left;
+}
+
+.BuildingToolcontainer
+{
+    padding: 0px;
+}
+
+.BuildingToolRow{
+    margin-top: 20px;
+    width:90%;
+    position: relative;
+}
+
+.HLMTitle
+{
+    margin-bottom: 2%;
+}
+
+.HLMImg img{
+    margin-top: -30px;
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 720px;
+    height: 640px;
+}
+
+.HLMTitle .sub-title{
+  margin-left: 10%;
+}
+
+
+.HLMDetails{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.active {
+    color: beige;
+  }
+  
+  .collapsible + *{
+    display: grid; /* This forces the wrapper to account for the margins. It avoids a jump. */
+    overflow: hidden;
+    transition: max-height 500ms ease-out;
+  }
+
+   .nested-collapsible{
+    margin-top: 15px;
+    margin-left: 3.5%;
+  }
+
+.BuildingToolRow video{
+    margin-left: 10px;
+}
+
+.internalinfo{
+    margin-left: -30px;
+}
+
+
+  /*------------SHOpt------------*/
+
+
+  #SHOpt{
+    padding:200px 0;
+}
+
+.SHOptRow{
+    display:block;
+    justify-content: center;
+}
+
+.SHOptImg{
+    margin-top: 50px;
+}
+
+.SHOptImg img{
+    margin-top: -30px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.SHOptTitle{
+    margin-left: 10%;
+}
+
+.SHOptDetails p
+{
+    margin-left: 40px;
+    width: 70%;
+}
+
+.SHOptOfficial-Website ul li a{
+    margin-left: -0px;
+    color:#fff;
+    font-size: 20px;
+}
+
+.SHOptContribution{
+    margin-top: 10px;
+}
+
+
+/*------------Contact------------*/
+
+.contact-left{
+    flex-basis: 100%;
+}
+
+.contact-left .sub-title{
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+
+.contact-left p{
+    margin-top: 30px;
+    margin-left: 0%;
+    font-size: 45px;
+}
+
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 45px;
+}
+
+.social-icons{
+    margin-top: 30px;
+    margin-left: 0%;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 60px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+
+.social-icons a:hover{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    margin-top: 10px;
+    display: inline-block;
+    background:#ff004f ;
+    margin-left: 0%;
+}
