@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Project Motor Racing, shipped November 2025 on PC, PS5 and Xbox Series X|S">
   <rect width="1080" height="1080" fill="#0b0b0d"/>
   <g transform="skewX(-22)">
-    <rect x="1060" y="0" width="70" height="1080" fill="#ff004f"/>
+    <rect x="1060" y="0" width="70" height="1080" fill="#ff6a2b"/>
     <rect x="1160" y="0" width="70" height="1080" fill="#ffffff" opacity="0.92"/>
-    <rect x="1260" y="0" width="70" height="1080" fill="#ff004f"/>
+    <rect x="1260" y="0" width="70" height="1080" fill="#ff6a2b"/>
   </g>
   <g fill="#ffffff" opacity="0.1">
     <rect x="96" y="1000" width="40" height="40"/><rect x="176" y="1000" width="40" height="40"/><rect x="256" y="1000" width="40" height="40"/><rect x="336" y="1000" width="40" height="40"/><rect x="416" y="1000" width="40" height="40"/>
@@ -14,6 +14,6 @@
   <text x="88" y="500" fill="#ffffff" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="128" font-weight="700" letter-spacing="-3">PROJECT</text>
   <text x="88" y="630" fill="#ffffff" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="128" font-weight="700" letter-spacing="-3">MOTOR</text>
   <text x="88" y="760" fill="#ffffff" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="128" font-weight="700" letter-spacing="-3">RACING</text>
-  <text x="96" y="860" fill="#ff004f" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="40" font-weight="600">Shipped Nov 2025</text>
-  <text x="96" y="914" fill="#ff004f" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="40" font-weight="600">PC · PS5 · Xbox Series X|S</text>
+  <text x="96" y="860" fill="#ff6a2b" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="40" font-weight="600">Shipped Nov 2025</text>
+  <text x="96" y="914" fill="#ff6a2b" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="40" font-weight="600">PC · PS5 · Xbox Series X|S</text>
 </svg>

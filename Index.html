@@ -1,556 +1,291 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Siddhant Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/45cf6fac78.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="NewLogo.png" class = "logo">
-                <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>Game Engineer</p>
-                <h1>Hi, I am <span>Siddhant</span><br>I bring imagination on the screen</h1>
-            </div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Siddhant Bhati · Senior Game Engineer (UE5 / C++)</title>
+  <meta name="description" content="Siddhant Bhati, senior game engineer. Gameplay, combat, networking and AI systems in Unreal Engine 5 and C++. Shipped Project Motor Racing; lead engineer on Tilted Slammers.">
+  <meta property="og:title" content="Siddhant Bhati · Senior Game Engineer">
+  <meta property="og:description" content="Gameplay, combat, networking and AI systems in UE5 / C++.">
+  <link rel="preload" href="fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="mark" href="#top" aria-label="Siddhant Bhati, back to top">SB</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-small" href="SiddhantWordResume.pdf" download>Resume</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <p class="eyebrow">Senior Game Engineer · UE5 / C++</p>
+      <h1>Siddhant Bhati</h1>
+      <p class="lead">I build gameplay, combat and networking systems, from rollback netcode to features in a shipped console racing sim.</p>
+      <div class="cta">
+        <a class="btn" href="mailto:siddhantbhati@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="SiddhantWordResume.pdf" download>Download resume</a>
+      </div>
+      <ul class="credits" aria-label="Highlights">
+        <li><span class="k">Shipped</span><span class="v">Project Motor Racing · PC, PS5, Xbox Series X|S</span></li>
+        <li><span class="k">Now</span><span class="v">Lead engineer, Tilted Slammers</span></li>
+        <li><span class="k">Experience</span><span class="v">7+ years of C++ game code</span></li>
+      </ul>
     </div>
-   <!-- --------------about me---------------->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="aboutme.jpg">
-                  </div>  
-                  <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I am a game engineer with extensive experience in artificial intelligence, C++, and engine programming, particularly in the Unreal Engine. My passion lies in designing and implementing AI systems that make game experiences more immersive and engaging.
+  </section>
 
-                        Throughout my career, I have worked on a variety of projects, ranging from small indie games to large AAA titles. I have a deep understanding of the technical aspects of game development and am always seeking new challenges to further develop my skills.
-                        
-                        My proficiency in C++ allows me to optimize game performance and implement complex AI algorithms. I have a strong understanding of AI techniques, such as behavior trees and finite state machines and have some experience with neural network and deep learning <br><br>
-                        Overall, I am a dedicated and enthusiastic game engineer with a passion for AI and a drive to deliver exceptional gameplay experiences. </p>
-
-                    <div class="tab-titles">
-                        <p class="tab-links active_link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>AI Programmer</span><br>Game AI programmer</li>
-                            <li><span>Unreal Engine Programmer</span><br>Developing games on Unreal </li>
-                            <li><span>C++ Programmer(Modern C++)</span><br>Developing applications with C++</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2024 - Present</span><br>Founder &amp; Lead Engineer at Firetail Studios (Tilted Slammers)</li>
-                            <li><span>Project Motor Racing (shipped Nov 2025)</span><br>Gameplay Programmer at Straight4 Studios</li>
-                            <li><span>June 2022 - July 2023</span><br>AI Programmer at Mayhem Studios</li>
-                            <li><span>September 2021-May 2022</span><br>Freelance Unreal Engine AI Programmer </li>
-                            <li><span>July 2020-September 2021</span><br>Game Engineer at Pragmatic Play</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2015 - 2018</span><br>Bachelors in Computer Science<br>University of Delhi</li>
-                        </ul>
-                    </div>
-                  </div>
-
-            </div>     
-        </div>
-        
-    </div>
-
-
-       <!-- --------------services---------------->
-
-       <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="serviceslist">
-                <div>
-                    <i class="fa-solid fa-gamepad"></i>
-                    <h2>AI Development</h2>
-                    <p>Game AI developer with a passion for creating immersive and intelligent gameplay experiences. My expertise in artificial intelligence and programming languages like C++ enables me to craft sophisticated AI systems for the gaming world. Let's work together to bring your game to life with cutting-edge Game AI developmen 
-                    </p>
-                    <a href="#Contact">learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-gamepad"></i>
-                    <h2>Game Development</h2>
-                    <p>Game developer with extensive experience in Unreal and Lumberyard engines. My expertise in these industry-leading engines enables me to create visually stunning and immersive game experiences. Let's work together to bring your game vision to life!
-                    </p>
-                    <a href="#Contact">learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>C++ Application Development</h2>
-                    <p>I am an experienced C++ developer with expertise in modern C++, MFC-based Windows application development, Linux development, multi-threading, SIMD, cache-friendly code, and experience with STL and Boost libraries. My proficiency in these areas enables me to develop high-performance and scalable applications that meet the needs of clients. I am committed to optimizing code performance using STL, Boost, multi-threading, and cache-friendly techniques to ensure optimal efficiency and speed. 
-                    </p>
-                    <a href="#Contact">learn more</a>
-                </div>
-            </div>
-        </div>
-       </div>
-
-              <!-- --------------services---------------->
-
-      <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="TiltedSlammers.svg" alt="Tilted Slammers">
-                    <div class="layer">
-                        <h3>Tilted Slammers(UE5,C++,Netcode)</h3>
-                        <p>Tactical arena brawler in development<br>at Firetail Studios</p>
-                        <a href="#TiltedSlammers">more</a>
-                        <a href="https://youtu.be/c21EdxaxiIw">watch gameplay</a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="ProjectMotorRacing.svg" alt="Project Motor Racing">
-                    <div class="layer">
-                        <h3>Project Motor Racing(UE5,GIANTS,C++)</h3>
-                        <p>Racing simulation shipped on<br>PC, PS5 and Xbox Series X|S</p>
-                        <a href="#ProjectMotorRacing">more</a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="UGW.png">
-                    <div class="layer">
-                        <h3>Underworld Gang Wars(AAA,UE4,C++,AI)</h3>
-                        <p>AAA Battle Royale game based on Indian Theme</p>
-                        <a href="#UGW">more</a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="fantasticLeague.png">
-                    <div class="layer">
-                        <h3>Fantastic League Football(C++,Engine)</h3>
-                        <p>Virtual Football online betting game</p>
-                        <a href="#FantasticLeague">more</a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="HotlikeMiami.png">
-                    <div class="layer">
-                        <h3>Hotlike Miami(C++,AI)</h3>
-                        <p>AI demonstration for a top down 2D game<br>from scratch on c++</p>
-                        <a href="#HotLikeMiami">more</a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="SpatialHashCollision.PNG">
-                    <div class="layer">
-                        <h3>Collision Detection Techniques(C++,collision,simd)</h3>
-                        <p>Collision detection optimization techniques<br> for 5000+ shapes</p>
-                        <a href="#SHOpt">more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- Featured work -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Selected work</p>
+        <h2>Featured projects</h2>
       </div>
 
-
-
-          <!-- --------------Tilted Slammers---------------->
-
-      <div id="TiltedSlammers">
-        <div class="ProjectContainer">
-            <div class="ProjectRow">
-
-                <div class="ProjectTitle">
-                    <h1 class="sub-title">Tilted Slammers</h1>
-                </div>
-                <div class="Trailer">
-                    <iframe width="1139.2" height="640" src="https://www.youtube.com/embed/c21EdxaxiIw?rel=0" title="Tilted Slammers gameplay" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-                <div class="Official-Website">
-                    <ul>
-                    <li><a href="https://youtu.be/c21EdxaxiIw">Watch on YouTube</a></li>
-                    </ul>
-                </div>
-
-                <div class="Details">
-                    <p>Tilted Slammers is a competitive tactical arena brawler for PC and consoles, in development at Firetail Studios, the studio I founded. I lead its engineering in Unreal Engine 5 and C++, and built the combat and networking architecture from the ground up.</p>
-                </div>
-
-                <div class="ProjectContribution">
-                    <button class="collapsible">My Contribution</button>
-                   <div class="ContributionContent">
-                     <p>1. Architected the combat stack: a fixed-step deterministic simulation with client-side rollback netcode, running on server-authoritative dedicated servers
-                      <br> 2. Built a custom movement component and a phase-based animation state machine driving every character
-                      <br> 3. Implemented a 9-frame universal input buffer with gesture history, modelled on modern platform fighters
-                      <br> 4. Designed an ability framework supporting staged, multi-charge and placeable abilities
-                      <br> 5. Profiled the packaged dedicated server: a 4-player simulation step averages about 0.7 ms, with p99 under 2.7 ms even at 150 ms latency and 5% packet loss, for roughly 10 concurrent matches per CPU core
-                      <br> 6. Lead a freelance art and animation team; the game was selected for IGDC I/P Connect 2026</p>
-                   </div>
-                </div>
-
-            </div>
+      <!-- Tilted Slammers -->
+      <article class="case" id="tilted-slammers">
+        <div class="case-media">
+          <button class="yt" type="button" data-yt="c21EdxaxiIw" aria-label="Play Tilted Slammers gameplay video">
+            <img src="https://i.ytimg.com/vi/c21EdxaxiIw/hqdefault.jpg" alt="" loading="lazy">
+            <span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          </button>
         </div>
-      </div>
-
-
-          <!-- --------------Project Motor Racing---------------->
-
-      <div id="ProjectMotorRacing">
-        <div class="ProjectContainer">
-            <div class="ProjectRow">
-
-                <div class="ProjectTitle">
-                    <h1 class="sub-title">Project Motor Racing</h1>
-                </div>
-                <div class="ProjectImg">
-                    <img src="ProjectMotorRacing.svg" alt="Project Motor Racing title card">
-                </div>
-
-                <div class="Official-Website">
-                    <ul>
-                    <li><a href="https://store.steampowered.com/app/299970/Project_Motor_Racing/">Steam Page</a></li>
-                    </ul>
-                </div>
-
-                <div class="Details">
-                    <p>Project Motor Racing is a racing simulation developed by Straight4 Studios and published by GIANTS Software, released on 25 November 2025 for PC, PlayStation 5 and Xbox Series X|S. I worked on it as a Gameplay Programmer, first in Unreal Engine 5 and then through the studio's move to the GIANTS Engine.</p>
-                </div>
-
-                <div class="ProjectContribution">
-                    <button class="collapsible">My Contribution</button>
-                   <div class="ContributionContent">
-                     <p>1. Developed core race systems in Unreal Engine 5 and carried them through the studio's migration to the GIANTS Engine
-                      <br> 2. Built the replay system for recording and playing back races
-                      <br> 3. Built the race camera systems, including trackside broadcast cameras
-                      <br> 4. Implemented the race penalty system
-                      <br> 5. Implemented the trackside pit systems</p>
-                   </div>
-                </div>
-
-            </div>
+        <div class="case-body">
+          <p class="meta">Firetail Studios · 2024 – present · UE5 · C++</p>
+          <h3>Tilted Slammers</h3>
+          <p>A competitive tactical arena brawler for PC and consoles, in development at the studio I founded. I lead its engineering and built the combat and networking architecture from the ground up.</p>
+          <ul class="bullets">
+            <li>Fixed-step deterministic simulation with client-side rollback netcode on server-authoritative dedicated servers.</li>
+            <li>Custom movement component and phase-based animation state machine.</li>
+            <li>9-frame universal input buffer with gesture history, modelled on platform fighters.</li>
+            <li>Ability framework for staged, multi-charge and placeable abilities.</li>
+          </ul>
+          <ul class="tags"><li>Rollback netcode</li><li>Dedicated servers</li><li>Combat systems</li><li>Selected: IGDC I/P Connect 2026</li></ul>
+          <p class="links"><a href="https://youtu.be/c21EdxaxiIw">Watch on YouTube →</a></p>
         </div>
-      </div>
 
-
-          <!-- --------------ugw---------------->
-
-      <div id="UGW">
-        <div class="UGWcontainer">
-            <div class="ugwRow">
-              
-                <div class="UGWTrailer"> 
-                    <h1 class="sub-title">Underworld Gang Wars</h1>
-                </div>
-                  <div class="Trailer">
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="1139.2" height="640" type="text/html" src="https://www.youtube.com/embed/xHBer6qnU3Q?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://xn--mikroln-jxa.com/">mikrolån</a></small></div><div><small><a href="https://youtubeembedcode.com/pl/">youtubeembedcode.com/pl/</a></small></div><div><small><a href="https://xn--snabbln5000-28a.com/lana-2000/">låna 2000</a></small></div><div><small><a href="https://youtubeembedcode.com/pl/">youtubeembedcode pl</a></small></div><div><small><a href="https://unoregler.com/no/">https://unoregler.com/no/</a></small></div><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://snabblån5000.com/lana-6000/">låna 6000</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode.com/en/</a></small></div><div><small><a href="https://laddbox.io/">https://laddbox.io/</a></small></div><div><small><a href="https://youtubeembedcode.com/pl/">youtubeembedcode.com/pl/</a></small></div><div><small><a href="https://solitairespider.co/">https://solitairespider.co/</a></small></div></iframe>
-                </div>
-
-                <div class="Official-Website"> 
-                    <ul>
-                    <li><a href="https://underworldgangwars.com/">Official Website</a></li>
-                    </ul>
-                </div>
-
-                <div class="Details"> 
-                    <p>Underworld Gang Wars is an upcoming AAA battle royale game set in the gritty world of Indian gang rivalry. Built on the powerful Unreal Engine, the game promises stunning visuals and immersive gameplay, transporting players to the heart of the action. With its rich storyline, intense gameplay mechanics, and authentic Indian theme, Underworld Gang Wars is poised to make a significant impact in the Indian gaming industry. </p>
-                </div>
-                
-                <div class="UGWMyContibution"> 
-                    <button class="collapsible">My Contribution</button>
-                   <div class="ContributionContent">
-                     <p>1. Designed and implemented AI systems that allow enemy gang members to behave realistically, such as by taking cover, flanking the player, and coordinating their attacks
-                      <br> 2. Created AI-driven opponents that provide a dynamic and challenging gameplay experience, responding to the player's tactics and making use of different strategies based on the situation
-                     <br>  3. Designed and implemented AI routines that allow enemy AI to navigate the game's terrain and obstacles, using techniques such as pathfinding algorithms and obstacle avoidance
-                      <br>   4. Fine-tuned AI routines to ensure that they provide a balanced and enjoyable gameplay experience, adjusting metrics such as time-to-kill, hit percentages, and damage output to adjust enemy difficulty
-                      <br>   5. Worked closely with level designers to ensure that the AI systems integrate well with the game's environments, making use of cover, obstacles, and other elements in the game world to create realistic and engaging combat scenarios
-                     <br>   6. Conducted testing and debugging of AI systems to ensure that they perform as expected, using tools like visual debuggers and logs to identify and fix issues.</p>
-                   </div>
-                </div>
-            
-
-            </div>     
-        
-    </div>
-    </div>
-
-
-       <!-- --------------FL---------------->
-
-
-       <div id="FantasticLeague">
-        <div class="FLContainer">
-            <div class="FLRow">
-              
-                <div class="FLTitle"> 
-                    <h1 class="sub-title">Fantastic League</h1>
-                </div>
-                  <div class="FLImg">
-                    <img src="fantasticLeague.png">
-                </div>
-
-                <div class="Official-Website"> 
-                    <ul>
-                    <li><a href="https://bc.game/game/fantastic-league-football-by-pragmatic-play">Official Website</a></li>
-                    </ul>
-                </div>
-
-                <div class="Details"> 
-                    <p>Fantastic League is a virtual soccer betting game that allows players to bet on their favorite soccer teams and earn rewards. The game has an engaging user interface that provides users with the necessary information to place their bets. It features a variety of betting options, including predicting the outcome of a game, the number of goals, and even player statistics. The game provides a realistic soccer experience, with high-quality graphics and sound effects. Fantastic League is a fun and exciting way to enjoy soccer and win big at the same time.</p>
-                </div>
-                
-                <div class="MyContibution"> 
-                    <button class="collapsible">My Contribution</button>
-                   <div class="ContributionContent">
-                     <p>Responsibilities:
-                        <br>1. Reverse engineer legacy game engine code and data from Fantastic League 2005 to Lumberyard
-                      <br>  2. Port legacy engine code from Visual Studio 2005 to Visual Studio 2017 for debugging purposes
-                      <br>  3. Implement a byte code reader to fetch data in binary format and organize it according to the legacy project's architecture
-                      <br>   4. Implement a custom gem for player animation that involves custom blending, switching motion by passing name in parameters
-                      <br>   5. Implement legacy ball physics in Lumberyard
-                      <br>  6. Collaborate with other members of the development team, including programmers, artists, and designers, to ensure smooth integration of custom features and ported code
-                      <br>   7. Test and debug the ported code to ensure that it meets functional requirements and performance targets
-                    <br><br>  Major Accomplishments:
-                    <br> 1. Developed a custom Animation Gem that increased efficiency and saved time by 200%
-                    <br> 2. Successfully ported the legacy Renderbox to Visual Studio 2017, enabling easier debugging and maintenance of the codebase.
-                    </p>
-                   </div>
-                </div>
-            
-
-            </div>     
-        
-    </div>
-    </div>
-
-
-     <!-- --------------Hotlike Miami---------------->
-
-     <div id="HotLikeMiami">
-        <div class="HLM">
-            <div class="HLMRow">
-              
-                <div class="HLMTitle"> 
-                    <h1 class="sub-title">Hotlike Miami</h1>
-                </div>
-                  <div class="HLMImg">
-                    <img src="HotlikeMiami.png">
-                </div>
-
-                <div class="Official-Website"> 
-                    <ul>
-                    <li><a href="https://github.com/Skiggs/AIDev">Github Link</a></li>
-                    </ul>
-                </div>
-
-                <div class="Details"> 
-                    <p> Introducing a 2D top-down shooter game that puts a heavy emphasis on enemy AI. Built from the ground up using C++ 14 in VS2017, the project features complex enemy AI that has been carefully integrated using a simple Data-Oriented Design approach for handling various events and messages. The game utilizes several libraries, including STL, C++ standards, and SFML for rendering textures and shapes.  </p>
-                </div>
-                
-                <div class="HLMMyContibution"> 
-                    <button class="collapsible">LAYERS OF DEVELOPMENT</button>
-                   <div class="ContributionContent">
-                     <button class="collapsible nested-collapsible">Setting up the Game States</button>
-                     <div class="ContributionContent">
-                        <div class="BuildingToolcontainer">
-                            <div class="BuildingToolRow">
-                                <div class="internalinfo">
-                                <p>1. Successfully set up game states including Game Menu, Splash Screen, InGame, Game Over, etc.
-                                    <br> 2. Developed Asset Manager and Input Manager for efficient asset management and user input handling.
-                                    <br> 3. Utilized delta time for seamless state transitions.
-                                    <br> 4. Ensured optimal game performance and minimal memory consumption through efficient programming practices.
-                                    <br> 5. Worked independently to complete the project.</p>
-                                </div>
-                            </div>
-                            </div>
-                       
-                     </div>
-
-                     <button class="collapsible nested-collapsible">Building the Tools for AI</button>
-                     <div class="ContributionContent">
-                        <div class="BuildingToolcontainer">
-                            <div class="BuildingToolRow">
-                                <video width="720" height="640" controls>
-                                    <source src="DevelopmentHM.mp4" type="video/mp4">
-                                  </video>
-                                  <div class="internalinfo">
-                                <p>1. The development of maps using scripts to spawn walls, doors, windows, items, and enemies is done in this stage.
-                                  <br> 2.  A* pathfinding for navigation is developed and integrated into the game in this stage.
-                                  <br> 3.  A message system is implemented for deploying messages to different enemies based on their IDs.
-                                  <br> 4.  Collision detection between various shapes like circle-circle, circle-line, circle-rectangle, line-line is implemented in this stage.</p>
-                            </div>
-                        </div>
-                        </div>
-                       
-                     </div>
-
-                     <button class="collapsible nested-collapsible">AI Development of Enemies</button>
-                     <div class="ContributionContent">
-                        <div class="BuildingToolcontainer">
-                            <div class="BuildingToolRow">
-                                <video width="720" height="640" controls>
-                                    <source src="HotlikeMiami.mp4" type="video/mp4">
-                                  </video>
-                                  <div class="internalinfo">
-                                    <p>1. Develop complex behavior AI for enemies in the game, inspired by Hitman
-                                       <br>2. Define different enemy states, including Patrolling, Checking, Consuming Food, Taking Cover, Shooting, Throwing Grenades, Dodging Grenades, and Reviving Friends
-                                       <br>3. Design and implement AI algorithms that enable enemies to analyze their surroundings and make human-like decisions
-                                        <br>4. Create a state machine that manages the various enemy states and transitions between them
-                                        <br> 5. Ensure that enemies are able to think and react realistically, for example by searching for weapons and taking cover when in danger
-                                        <br> 6. Enable enemies to revive their fallen comrades while continuing to engage the player in combat
-                                        <br> 7. Implement reactive behavior, such as enemies consuming poisonous items and then running to the nearest restroom
-                                        <br> 8. Test and debug the AI code to ensure that it meets functional requirements and performance targets </p>
-                                  </div>
-                                
-                            </div>
-                        </div>
-                       
-                     </div>
-
-                   </div>
-                </div>
-            
-
-            </div>     
-        
-    </div>
-    </div>
-
-
-
-
-       <!-- --------------SpatialHash---------------->
-
-
-       <div id="SHOpt">
-        <div class="SHOptContainer">
-            <div class="SHOptRow">
-              
-                <div class="SHOptTitle"> 
-                    <h1 class="sub-title">Collision Detection Techniques</h1>
-                </div>
-                  <div class="SHOptImg">
-                    <img src="SpatialHashCollision.PNG">
-                </div>
-
-                <div class="Official-Website"> 
-                    <ul>
-                    <li><a href="https://github.com/Skiggs/ECSSpatialHashSimd">Github Link</a></li>
-                    </ul>
-                </div>
-
-                <div class="Details"> 
-                    <p>This project is a simulation of thousands of objects with a focus on collision detection.
-                        The game is built using C++ in Visual Studio 2017 with SFML for rendering</p>
-                </div>
-                
-                <div class="SHOptContribution"> 
-                    <button class="collapsible">My Contribution</button>
-                   <div class="ContributionContent">
-                     <p> The collision detection is handled by three different approaches:-
-                     <br> 1. Naïve Technique, where an object checks for collisions with every other object.
-                     <br> 2. SpatialHash, which assigns objects to a grid to reduce the number of checks required.
-                     <br> 3. Quadtree, which further refines the number of objects to check by dividing the screen into quads.
-                     <br> 4. In addition to collision detection, the project also features an entity component system for managing game objects and uses SIMD instructions for optimization.</p>
-                   
-                     <video width="720" height="640" controls>
-                        <source src="Optimization.mp4" type="video/mp4">
-                      </video>
-                   
-                    </div>
-                </div>
-            
-
-            </div>     
-        
-    </div>
-    </div>
-
-
-      <!-- --------------Contact---------------->
-      <div id="Contact">
-        <div class="container">
-            <div class = "row">
-              <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>siddhantbhati@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>+91 8920712857</p>
-                <div class="social-icons">
-                    <a href="https://github.com/Skiggs"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/siddhant-bhati-100a44b2/"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-                <a href="SiddhantWordResume.pdf" download class="btn btn2">Download Resume</a>
-              </div>
+        <figure class="arch">
+          <figcaption>How a match runs</figcaption>
+          <div class="arch-flow">
+            <div class="node">
+              <p class="node-k">Clients</p>
+              <p>Predict locally every frame, roll back and resimulate when server state disagrees</p>
             </div>
-            
+            <div class="link-x" aria-hidden="true"><span>inputs →</span><span>← state</span></div>
+            <div class="node node-accent">
+              <p class="node-k">Dedicated server</p>
+              <p>Authoritative fixed-step simulation; never rolls back</p>
+            </div>
+          </div>
+          <dl class="stats">
+            <div><dt>~0.7 ms</dt><dd>average 4-player sim step</dd></div>
+            <div><dt>&lt; 2.7 ms</dt><dd>p99 at 150 ms latency, 5% loss</dd></div>
+            <div><dt>~10</dt><dd>concurrent matches per CPU core</dd></div>
+          </dl>
+        </figure>
+      </article>
+
+      <!-- Project Motor Racing -->
+      <article class="case" id="project-motor-racing">
+        <div class="case-media">
+          <div class="poster"><img src="ProjectMotorRacing.svg" alt="Project Motor Racing title card"></div>
+        </div>
+        <div class="case-body">
+          <p class="meta">Straight4 Studios · shipped Nov 2025 · UE5 → GIANTS Engine · C++</p>
+          <h3>Project Motor Racing</h3>
+          <p>A racing simulation published by GIANTS Software on PC, PlayStation 5 and Xbox Series X|S. As a Gameplay Programmer I worked on core race systems in Unreal Engine 5, then carried them through the studio's move to the GIANTS Engine.</p>
+          <ul class="bullets">
+            <li>Replay system for recording and playing back races.</li>
+            <li>Race camera systems, including trackside broadcast cameras.</li>
+            <li>Race penalty system.</li>
+            <li>Trackside pit systems.</li>
+          </ul>
+          <ul class="tags"><li>Shipped on console</li><li>Engine migration</li><li>Cameras &amp; replay</li></ul>
+          <p class="links"><a href="https://store.steampowered.com/app/299970/Project_Motor_Racing/">Steam page →</a></p>
+        </div>
+      </article>
+
+      <!-- Underworld Gang Wars -->
+      <article class="case" id="underworld-gang-wars">
+        <div class="case-media">
+          <button class="yt" type="button" data-yt="xHBer6qnU3Q" aria-label="Play Underworld Gang Wars trailer">
+            <img src="https://i.ytimg.com/vi/xHBer6qnU3Q/hqdefault.jpg" alt="" loading="lazy">
+            <span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          </button>
+        </div>
+        <div class="case-body">
+          <p class="meta">Mayhem Studios · 2022 – 2023 · UE4 · C++</p>
+          <h3>Underworld Gang Wars</h3>
+          <p>A battle royale set in India's gang underworld. I built the bot AI that fills matches and fights like players do.</p>
+          <ul class="bullets">
+            <li>Cover selection, shooting from cover and revive, integrated with the character weapon system.</li>
+            <li>Behaviour driven by a hybrid of Behavior Trees and state machines, with EQS for positional queries.</li>
+            <li>Coordinated bot behaviour for duo and squad modes.</li>
+            <li>Backend features and GoogleTest coverage.</li>
+          </ul>
+          <ul class="tags"><li>Game AI</li><li>Behavior Trees</li><li>EQS</li></ul>
+          <p class="links"><a href="https://underworldgangwars.com/">Official website →</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- More work -->
+  <section class="section section-tight" id="more">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Also built</p>
+        <h2>More work</h2>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <img src="fantasticLeague.png" alt="Fantastic League key art" loading="lazy">
+          <div class="card-body">
+            <p class="meta">Pragmatic Play · Lumberyard · C++</p>
+            <h3>Fantastic League</h3>
+            <p>Ported a 2005 AI-vs-AI football engine to Lumberyard: a bytecode reader for the legacy data, a custom animation Gem with blending, and the original ball physics rebuilt.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="HotlikeMiami.png" alt="Hotlike Miami level with enemies" loading="lazy">
+          <div class="card-body">
+            <p class="meta">Personal · C++ · SFML</p>
+            <h3>Hotlike Miami</h3>
+            <p>A top-down game built from scratch with Hitman-inspired enemy AI that takes cover, revives allies, dodges grenades and weighs whether a weapon is worth the risk.</p>
+            <p class="links"><a href="HotlikeMiami.mp4">Watch demo →</a> <a href="https://github.com/Skiggs/AIDev">GitHub →</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="SpatialHashCollision.PNG" alt="Thousands of shapes in a collision simulation" loading="lazy">
+          <div class="card-body">
+            <p class="meta">Personal · C++ · SIMD</p>
+            <h3>Collision at scale</h3>
+            <p>Real-time collision for 6,000+ shapes, comparing naive checks against spatial hashing and quadtrees, with an entity component system and SIMD.</p>
+            <p class="links"><a href="Optimization.mp4">Watch demo →</a> <a href="https://github.com/Skiggs/ECSSpatialHashSimd">GitHub →</a></p>
+          </div>
+        </article>
       </div>
     </div>
+  </section>
 
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks)
-            {
-                tablink.classList.remove("active_link");
-            }
-            for(tabcontent of tabcontents)
-            {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active_link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="wrap two-col">
+      <div class="section-head">
+        <p class="eyebrow">Career</p>
+        <h2>Experience</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <p class="when">2024 – present</p>
+          <h3>Founder &amp; Lead Engineer</h3>
+          <p class="where">Firetail Studios · Tilted Slammers</p>
+        </li>
+        <li>
+          <p class="when">Shipped Nov 2025</p>
+          <h3>Gameplay Programmer</h3>
+          <p class="where">Straight4 Studios · Project Motor Racing</p>
+        </li>
+        <li>
+          <p class="when">Jun 2022 – Jul 2023</p>
+          <h3>C++ Unreal Engine Developer</h3>
+          <p class="where">Mayhem Studios · Underworld Gang Wars</p>
+        </li>
+        <li>
+          <p class="when">Sep 2021 – May 2022</p>
+          <h3>C++ Unreal Engine Developer</h3>
+          <p class="where">Freelance · RTS backend, MOBA AI</p>
+        </li>
+        <li>
+          <p class="when">Jul 2020 – Sep 2021</p>
+          <h3>Game Engineer (C++)</h3>
+          <p class="where">Pragmatic Play · Fantastic League</p>
+        </li>
+        <li>
+          <p class="when">Feb 2019 – May 2020</p>
+          <h3>C++ Game Developer</h3>
+          <p class="where">Ingenuity Gaming · slot-game engine</p>
+        </li>
+        <li>
+          <p class="when">2015 – 2018</p>
+          <h3>B.Sc. (Hons) Computer Science</h3>
+          <p class="where">University of Delhi</p>
+        </li>
+      </ol>
+    </div>
+  </section>
 
+  <!-- Skills -->
+  <section class="section section-tight" id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills">
+        <div><h3>Gameplay &amp; combat</h3><p>Movement components, animation state machines, input buffering, ability frameworks, cameras, replays</p></div>
+        <div><h3>Networking</h3><p>Rollback netcode, deterministic fixed-step simulation, dedicated servers, UE replication</p></div>
+        <div><h3>Game AI</h3><p>Behavior Trees, Blackboard, EQS, state machines, A* pathfinding, squad bots</p></div>
+        <div><h3>Engines</h3><p>Unreal Engine 4/5, GIANTS Engine, Lumberyard, Unity, SFML, DirectX</p></div>
+        <div><h3>Languages</h3><p>Modern C++ (STL, Boost), Python</p></div>
+        <div><h3>Engineering</h3><p>System design, data-oriented design, profiling, SIMD, GoogleTest</p></div>
+      </div>
+    </div>
+  </section>
 
-// Get all collapsible buttons
-const collapsibles = document.querySelectorAll('.collapsible');
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <p class="eyebrow">Open to remote contract, part-time and full-time roles</p>
+      <h2 class="contact-title">Let's build something.</h2>
+      <a class="email" href="mailto:siddhantbhati@gmail.com">siddhantbhati@gmail.com</a>
+      <ul class="contact-links">
+        <li><a href="https://www.linkedin.com/in/siddhant-bhati-100a44b2/">LinkedIn</a></li>
+        <li><a href="https://github.com/Skiggs">GitHub</a></li>
+        <li><a href="tel:+918920712857">+91 89207 12857</a></li>
+        <li><a href="SiddhantWordResume.pdf" download>Resume (PDF)</a></li>
+      </ul>
+      <p class="tz">Based in Delhi, India · UTC+5:30</p>
+    </div>
+  </section>
 
-// Add click event listener for each collapsible.
-for (const collapsible of collapsibles) {
-  collapsible.addEventListener('click', function(event) {
-    const button = event.target;
-    const isExpanding = button.classList.toggle('active');
-    const content = button.nextElementSibling;
-    const wrapper = content.firstElementChild;
-    
-    // Get the calculated height of the wrapper.
-    const { height } = wrapper.getBoundingClientRect();
-    content.style.maxHeight = height + 'px';
-    
-    // Remove max height after an exapnding transition.
-    content.addEventListener('transitionend', () => {
-      if (isExpanding) {
-        content.style.maxHeight = 'none';
-      }
-    }, { once: true });
-    
-    // Hack to force a closing transition.
-    if (!isExpanding) {
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          content.style.maxHeight = '0px';
-        });
-      });
-    }
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>© 2026 Siddhant Bhati</p>
+  </div>
+</footer>
+
+<script>
+  // Load a YouTube video only when its thumbnail is clicked.
+  document.querySelectorAll('.yt').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var id = btn.getAttribute('data-yt');
+      var frame = document.createElement('iframe');
+      frame.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+      frame.title = btn.getAttribute('aria-label');
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      btn.replaceWith(frame);
+    });
   });
-}
-
-    </script>
-    </body>
+</script>
+</body>
 </html>
