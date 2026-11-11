@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="Tilted Slammers, UE5 C++ arena brawler in development">
+  <rect width="1080" height="1080" fill="#0b0b0d"/>
+  <g transform="skewX(-22)">
+    <rect x="1010" y="0" width="120" height="1080" fill="#ff004f"/>
+    <rect x="1180" y="0" width="60" height="1080" fill="#ff004f" opacity="0.55"/>
+    <rect x="1290" y="0" width="26" height="1080" fill="#ff004f" opacity="0.3"/>
+  </g>
+  <text x="96" y="190" fill="#ababab" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="34" letter-spacing="6">FIRETAIL STUDIOS</text>
+  <text x="96" y="240" fill="#ababab" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="34" letter-spacing="6">IN DEVELOPMENT</text>
+  <text x="88" y="560" fill="#ffffff" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="150" font-weight="700" letter-spacing="-3">TILTED</text>
+  <text x="88" y="710" fill="#ffffff" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="150" font-weight="700" letter-spacing="-3">SLAMMERS</text>
+  <text x="96" y="880" fill="#ff004f" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="44" font-weight="600">UE5 · C++</text>
+  <text x="96" y="940" fill="#ff004f" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="44" font-weight="600">Rollback netcode</text>
+</svg>

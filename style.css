@@ -576,6 +576,44 @@ nav ul li a:hover::after{
 }
 
 
+/*------------Tilted Slammers / Project Motor Racing------------*/
+
+#TiltedSlammers, #ProjectMotorRacing{
+    padding: 200px 0 0;
+}
+
+.ProjectRow{
+    display: block;
+}
+
+.ProjectTitle .sub-title{
+    margin-left: 10%;
+}
+
+.ProjectImg{
+    margin-top: 20px;
+}
+
+.ProjectImg img{
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 720px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+
+.ProjectContribution{
+    margin-top: 10px;
+}
+
+#TiltedSlammers .Trailer iframe{
+    max-width: 80%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+
 /*------------Contact------------*/
 
 .contact-left{
